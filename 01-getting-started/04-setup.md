@@ -44,7 +44,13 @@ docker run -dit \
   ubuntu:latest /bin/bash
                  
 ```
+
+```bash
 docker exec -it container-id /bin/bash
+docker stop container-id
+docker start container-id
+```
+
 ## Explanation of Each Parameter
 
 | Parameter | Description |
