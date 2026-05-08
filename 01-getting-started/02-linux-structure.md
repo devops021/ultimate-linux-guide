@@ -20,6 +20,16 @@
 
 🔹 The physical components of the computer (CPU, RAM, disk, network interfaces, etc.).
 🔹 The OS interacts with hardware using device drivers.
+    A device driver is software that helps the Linux kernel communicate with hardware devices.
+    Examples:
+    Keyboard, Mouse
+        Application
+           ↓
+        Linux Kernel
+           ↓
+        Device Driver
+           ↓
+        Hardware
 (b) Kernel (Core of Linux OS)
 
 🔹 The Linux Kernel is responsible for directly managing system resources, including:
