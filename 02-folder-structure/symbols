@@ -1,0 +1,40 @@
+| Symbol      | One-line Explanation                      |                                        |                                     |
+| ----------- | ----------------------------------------- | -------------------------------------- | ----------------------------------- |
+| `/`         | Root directory or path separator          |                                        |                                     |
+| `~`         | User’s home directory                     |                                        |                                     |
+| `.`         | Current directory                         |                                        |                                     |
+| `..`        | Parent directory                          |                                        |                                     |
+| `*`         | Matches all files/characters              |                                        |                                     |
+| `?`         | Matches single character                  |                                        |                                     |
+| `>`         | Redirects output to a file                |                                        |                                     |
+| `>>`        | Appends output to a file                  |                                        |                                     |
+| `<`         | Takes input from a file                   |                                        |                                     |
+| `           | `                                         | Sends output of one command to another |                                     |
+| `&`         | Runs process in background                |                                        |                                     |
+| `&&`        | Runs next command if previous succeeds    |                                        |                                     |
+| `           |                                           | `                                      | Runs next command if previous fails |
+| `$`         | Accesses variable value                   |                                        |                                     |
+| `#`         | Comment or root user prompt               |                                        |                                     |
+| `;`         | Executes multiple commands sequentially   |                                        |                                     |
+| `' '`       | Treats text literally                     |                                        |                                     |
+| `" "`       | Allows variable expansion inside text     |                                        |                                     |
+| `+x`        | Adds execute permission                   |                                        |                                     |
+| `^`         | Start of line (regex)                     |                                        |                                     |
+| `$` (regex) | End of line (regex)                       |                                        |                                     |
+| `()`        | Groups commands or expressions            |                                        |                                     |
+| `{}`        | Groups multiple commands/variables        |                                        |                                     |
+| `[]`        | Used for conditions or character matching |                                        |                                     |
+| `\`         | Escape character                          |                                        |                                     |
+| `!`         | Negation or command history               |                                        |                                     |
+| `sudo`      | Executes command as superuser             |                                        |                                     |
+| `grep`      | Searches text patterns                    |                                        |                                     |
+| `chmod`     | Changes file permissions                  |                                        |                                     |
+| `ps`        | Shows running processes                   |                                        |                                     |
+| `kill`      | Terminates a process                      |                                        |                                     |
+| `pwd`       | Prints current directory                  |                                        |                                     |
+| `ls`        | Lists files/directories                   |                                        |                                     |
+| `cd`        | Changes directory                         |                                        |                                     |
+| `mkdir`     | Creates directory                         |                                        |                                     |
+| `rm`        | Removes files/directories                 |                                        |                                     |
+| `cp`        | Copies files/directories                  |                                        |                                     |
+| `mv`        | Moves or renames files                    |                                        |                                     |
