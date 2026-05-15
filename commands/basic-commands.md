@@ -16,14 +16,15 @@ ubuntu-server→ Hostname / IP
 $            → Normal user prompt
 
 ## First time linux setup
-apt update
-
-apt install vim
-apt install python3
+<p>apt update</p>
+<p>apt install vim</p>
+<p>apt install python3</p>
 
 ## Format json
-:%!python -m json.tool
+<p>:%!python -m json.tool</p>
 
 ## Format xml
-apt install libxml2-utils
-:%!xmllint --format -
+<p>apt install libxml2-utils</p>
+<p>:%!xmllint --format -</p>
+
+
