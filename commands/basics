@@ -14,3 +14,16 @@ mukul        → Username
 ubuntu-server→ Hostname / IP
 :~           → Current directory
 $            → Normal user prompt
+
+## First time linux setup
+apt update
+
+apt install vim
+apt install python3
+
+## Format json
+:%!python -m json.tool
+
+## Format xml
+apt install libxml2-utils
+:%!xmllint --format -
