@@ -27,4 +27,14 @@ $            → Normal user prompt
 <p>apt install libxml2-utils</p>
 <p>:%!xmllint --format -</p>
 
+## Useful Vim Delete Command	Meaning
+x	Delete character
+dw	Delete word
+dd	Delete line
+D	Delete to end
+d$	Delete to end of line
+:%d	Delete all
+di"	Delete inside quotes
+u	Undo
+ctrl+r Redo
 
