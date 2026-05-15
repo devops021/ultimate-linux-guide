@@ -42,6 +42,6 @@
 | `/data` | Likely your **mounted volume** from Windows (`C:/ubuntu-data`). |
 
 ### How ls is reconised as command
-when it type ls that command will be searched in one on directory configured in PATH
-echo $PATH
-/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+|when it type ls that command will be searched in one on directory configured in PATH|
+|echo $PATH|
+|/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin|
