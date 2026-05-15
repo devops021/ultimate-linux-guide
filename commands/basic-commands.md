@@ -2,9 +2,7 @@ Tutorial URL -
 <br>
 https://www.youtube.com/watch?v=29eDuMjsEF8
 <br>
-
-mukul@ubuntu-server:~$
-<br>
+mukul@ubuntu-server:~$<br>
 mukul        → Username<br>
 @            → Separator<br>
 ubuntu-server→ Hostname / IP<br>
