@@ -40,3 +40,8 @@
 | `/mnt` | Temporary mount point for external filesystems. |
 | `/media` | Mount point for removable media (USB, CDs). |
 | `/data` | Likely your **mounted volume** from Windows (`C:/ubuntu-data`). |
+
+### How ls is reconised as command
+when it type ls that command will be searched in one on directory configured in PATH
+echo $PATH
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
