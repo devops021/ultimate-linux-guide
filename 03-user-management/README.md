@@ -120,3 +120,6 @@ Then add:
 ```bash
 username ALL=(ALL) NOPASSWD: /path/to/command
 ```
+### Other commands
+whoami
+su - amukul
