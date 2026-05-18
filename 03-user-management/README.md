@@ -84,6 +84,10 @@ userdel -r username
 ```bash
 groupadd groupname
 ```
+## View created group
+```bash
+cat /etc/group
+```
 
 ### Adding Users to Groups
 ```bash
