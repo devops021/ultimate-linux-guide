@@ -6,6 +6,16 @@ Linux file permissions determine who can read, write, or execute files and direc
 - **Group**: Users belonging to the assigned group.
 - **Others**: All other users on the system.
 
+## -rw-rw-r-- is how ls -l shows file type and permissions for one file.
+```bash
+Breakdown (10 characters)
+Position	Value	Meaning
+1 - Regular file (not a directory, link, etc.)
+2–4 rw- Owner (user): read + write, no execute
+5–7 rw- Group: read + write, no execute
+8–10 r-- Others: read only
+```
+
 Permissions are represented as:
 - **Read (`r` or `4`)** – View file contents.
 - **Write (`w` or `2`)** – Modify file contents.
